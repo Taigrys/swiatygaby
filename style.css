@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -34,15 +33,13 @@ h1 {
     clear: both;
 }
 
-.taigrys
-{
+.taigrys {
     width: 100%;
     height: 500px;
     text-align: center;   
 }
 
-.taigrystext
-{
+.taigrystext {
     padding-top: 85px;
     margin-left: 250px;
     font-size: x-large;
@@ -51,8 +48,7 @@ h1 {
     float: left;
 }
 
-.taigryszdj
-{
+.taigryszdj {
     margin-top: 80px;
     margin-right: 350px;
     width: 230px;
@@ -63,48 +59,41 @@ h1 {
     user-select: none;
 }
 
-.taigryszdj:hover
-{
+.taigryszdj:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 20px rgb(16, 164, 255);
     animation: zdjpuls 3s  infinite;
 }
 
-@keyframes zdjpuls
-{
+@keyframes zdjpuls {
     0%{box-shadow: 0px 0px 20px rgb(16, 164, 255);}
     50%{box-shadow: 0px 0px 35px rgb(16, 164, 255);}
     100%{box-shadow: 0px 0px 20px rgb(16, 164, 255);}
 }
 
-.msg
-{
+.msg {
     background-color: rgb(255, 219, 219);
     width: 100%;
     height: 600px;
     text-align: center; 
 }
 
-.zdjgaba
-{
+.zdjgaba {
     position: relative;
     top: -110px;
     transform: scale(0.8);
     transition: all 500ms ease;
 }
 
-.zdjgaba:hover
-{
+.zdjgaba:hover {
     transform: scale(0.9);
 }
 
-.msgtext
-{
+.msgtext {
     float: left;
     margin-left: 200px;
 }
 
-.msg
-{
+.msg {
     box-shadow: 0 -20px 25px rgb(255, 219, 219);
 }
