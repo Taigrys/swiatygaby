@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+img{user-select: none;}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 header {
@@ -23,23 +26,27 @@ h1 {
 
 .main {
     background-color: #ddd;
-    height: 5000px;
+    height: 2900px;
 }
 
 .footer {
-    background-color: #333;
+    background-color: #308aff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: larger;
     color: #fff;
     text-align: center;
     clear: both;
 }
 
-.taigrys {
+.taigrys
+{
     width: 100%;
     height: 500px;
     text-align: center;   
 }
 
-.taigrystext {
+.taigrystext
+{
     padding-top: 85px;
     margin-left: 250px;
     font-size: x-large;
@@ -48,7 +55,8 @@ h1 {
     float: left;
 }
 
-.taigryszdj {
+.taigryszdj
+{
     margin-top: 80px;
     margin-right: 350px;
     width: 230px;
@@ -59,41 +67,191 @@ h1 {
     user-select: none;
 }
 
-.taigryszdj:hover {
+.taigryszdj:hover
+{
     transform: scale(1.1);
     box-shadow: 0px 0px 20px rgb(16, 164, 255);
     animation: zdjpuls 3s  infinite;
 }
 
-@keyframes zdjpuls {
+@keyframes zdjpuls
+{
     0%{box-shadow: 0px 0px 20px rgb(16, 164, 255);}
     50%{box-shadow: 0px 0px 35px rgb(16, 164, 255);}
     100%{box-shadow: 0px 0px 20px rgb(16, 164, 255);}
 }
 
-.msg {
+.msg
+{
     background-color: rgb(255, 219, 219);
     width: 100%;
     height: 600px;
     text-align: center; 
 }
 
-.zdjgaba {
+.zdjgaba
+{
     position: relative;
     top: -110px;
     transform: scale(0.8);
     transition: all 500ms ease;
 }
 
-.zdjgaba:hover {
+.zdjgaba:hover
+{
     transform: scale(0.9);
 }
 
-.msgtext {
+.msgtext
+{
+    margin-top: 30px;
     float: left;
+    margin-left: 150px;
+    width: 400px;
+}
+
+.msg
+{
+    box-shadow: 0 -20px 25px rgb(255, 219, 219);
+}
+
+.msgdaty
+{
+    float: right;
+    margin-right: 100px;
+    width: 700px;
+}
+
+.miniat
+{
+    border-radius: 25px;
+    transform: scale(0.8);
+    transition: all 1s ease;
+    box-shadow: 0px 0px 0px rgb(255, 114, 184);
+}
+
+.miniat:hover
+{
+    border-radius: 5px;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 30px rgb(255, 114, 184);
+}
+
+.msgodc1
+{
+    float: left;
+}
+
+.msgodcost
+{
+    float:right
+}
+
+.liczbaodc
+{
+    font-size: large;
+}
+
+.msg2
+{
+    background-color: rgb(255, 219, 219);
+    width: 100%;
+    height: 600px;
+    text-align: center; 
+}
+
+.najpodc
+{
+    float:left;
     margin-left: 200px;
 }
 
-.msg {
-    box-shadow: 0 -20px 25px rgb(255, 219, 219);
+.najpshort
+{
+    float:right;
+    margin-right: 200px;
+}
+
+.miniat2
+{
+    border-radius: 35px;
+    width: 500px;
+    transform: scale(0.8);
+    transition: all 1.5s ease;
+    box-shadow: 0px 0px 0px rgb(255, 114, 184);
+}
+
+.miniat2:hover
+{
+    border-radius: 10px;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 35px rgb(255, 114, 184);
+}
+
+.ewgaba
+{
+    box-shadow: 0 0 25px 45px rgb(255, 189, 66);  
+    background-color: rgb(255, 189, 66); 
+    width: 100%;
+    height: 600px;
+    text-align: center; 
+}
+
+.zdjgabaew
+{
+    position: relative;
+    top: -150px;
+    transform: scale(0.8);
+    transition: all 500ms ease;
+}
+
+.zdjgabaew:hover
+{
+    transform: scale(0.9);
+}
+
+.miniatew
+{
+    border-radius: 25px;
+    transform: scale(0.8);
+    transition: all 1s ease;
+    box-shadow: 0px 0px 0px 0x rgb(197, 115, 0);
+}
+
+.miniatew:hover
+{
+    border-radius: 5px;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 30px 5px rgb(197, 115, 0);
+}
+
+.miniat2ew
+{
+    border-radius: 35px;
+    width: 500px;
+    transform: scale(0.8);
+    transition: all 1.5s ease;
+    box-shadow: 0px 0px 0px 0px rgb(197, 115, 0);
+}
+
+.miniat2ew:hover
+{
+    border-radius: 10px;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 35px 10px rgb(197, 115, 0);
+}
+
+.esg2
+{
+    background-color: rgb(255, 189, 66); 
+    width: 100%;
+    height: 600px;
+    text-align: center; 
+}
+
+.esgdaty
+{
+    float: right;
+    margin-right: 100px;
+    width: 700px;
 }
